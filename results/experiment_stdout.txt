@@ -1,0 +1,39 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "curve": {
+    "p": 499,
+    "a": 0,
+    "b": 7,
+    "equation": "y^2 = x^3 + 7 mod p"
+  },
+  "base_point": [
+    3,
+    212
+  ],
+  "base_point_order": 73,
+  "curve_point_count": 511,
+  "cube_roots_of_unity": [
+    1,
+    139,
+    359
+  ],
+  "beta": 139,
+  "endomorphism_additivity_pair_checks": 261121,
+  "orbit_analysis": {
+    "points_examined": 511,
+    "orbit_size_histogram": {
+      "1": 1,
+      "6": 510
+    },
+    "distinct_orbits": 86
+  },
+  "interpretation": [
+    "This is a toy-curve arithmetic experiment, not an ECDLP attack.",
+    "Orbit sizes may be smaller than six for special points.",
+    "No asymptotic speedup is claimed."
+  ]
+}
+
+CSV: /mnt/data/ecd_endomorphism_lab/results/scalar_orbits.csv
+JSON: /mnt/data/ecd_endomorphism_lab/results/report.json
